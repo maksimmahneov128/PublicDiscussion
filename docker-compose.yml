@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image: public-discussion:latest
+    image: maksimmahneov128/public-discussion:latest
     command: gunicorn core.wsgi:application --bind 0.0.0.0:8000
     volumes:
       - static_volume:/usr/src/PublicDiscussion/static
@@ -18,7 +18,7 @@ services:
     env_file: .env.dev
 
   nginx:
-    image: public-discussion-nginx:latest
+    image: maksimmahneov128/public-discussion-nginx:latest
     volumes:
       - static_volume:/usr/src/PublicDiscussion/static
       - media_volume:/usr/src/PublicDiscussion/media
