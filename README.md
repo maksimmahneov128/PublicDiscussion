@@ -1,7 +1,7 @@
 # PublicDiscussion
 
 ____
-clone branch
+clone branch "git clone https://github.com/maksimmahneov128/PublicDiscussion.git -b main"
 
 ```
 docker compose up --build 
