@@ -1,7 +1,7 @@
 # PublicDiscussion
 
 ____
-clone docker_compose branch
+clone branch
 
 ```
 docker compose up --build 
